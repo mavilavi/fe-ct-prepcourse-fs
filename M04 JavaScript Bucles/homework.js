@@ -167,7 +167,7 @@ function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar true.
    // Caso contrario, retornar false.
    // Tu código:
-   if (num.length == 3) return true;
+   if (num.length === 3) return true;
    return false;
 }
 
